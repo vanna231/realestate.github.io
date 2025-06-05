@@ -1,0 +1,53 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+* {
+  font-family: "Kaisei Tokumin", serif;
+  font-style: normal;
+}
+
+:root {
+  --bg: #464646;
+}
+
+#header {
+  background: url("../images/banner-img-1.jpg") top/cover no-repeat;
+  background-attachment: fixed;
+}
+
+.slide-title {
+  margin-top: 17%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .slide-title {
+    margin-top: 60%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .slide-title {
+    margin-top: 50%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .slide-title {
+    margin-top: 25%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .slide-title {
+    margin-top: 17%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .slide-title {
+    margin-top: 17%;
+  }
+}
